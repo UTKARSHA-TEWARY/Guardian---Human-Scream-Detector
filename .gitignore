@@ -1,1 +1,7 @@
-myenv
+myenv/
+__pycache__/
+*.pyc
+*.pkl
+*.h5
+.DS_Store
+*.log

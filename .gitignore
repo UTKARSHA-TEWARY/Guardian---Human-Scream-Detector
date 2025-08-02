@@ -1,7 +1,16 @@
+# Ignore Python virtual environment and cache
 venv/
 __pycache__/
 *.pyc
+*.log
+
+# Ignore all .pkl and .h5 files by default
 *.pkl
 *.h5
+
+# Ignore macOS system files
 .DS_Store
-*.log
+
+# ✅ Explicitly allow tracked model files
+!svm_model_clean.pkl
+!mlp_model.h5

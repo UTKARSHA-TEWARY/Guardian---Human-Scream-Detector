@@ -57,4 +57,4 @@ def predict():
 # For local testing only; Render uses gunicorn
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000)
-svm_model = joblib.load("svm_model_clean.pkl")
+    svm_model = joblib.load("svm_model_clean.pkl")  # ✅ Good: new cleaned version
